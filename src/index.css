@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logoZaha path {
+    fill: rgb(133, 133, 133);
+}
+
+.logoZaha:hover path {
+    fill: white;
+}
+
+
+
+
+
+
+/* header nav footer------------------------------ */
+.NavFooter_text_a {
+    @apply text-stone-500 hover:text-white
+}
+
+.header_nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+
+/* video------------------------------ */
+.videoHome_play-pause,
+.videoHome_volume {
+    @apply text-white w-8 h-8 rounded-full bg-transparent hover:bg-black/80 border border-white/50 hover:border-white
+}
+
+
+/* ẩn hiện to nhỏ chữ------------------------------ */
+.show_text_6s {
+    display: block;
+    animation: fadeIn 6s ease-in-out forwards;
+    /* Tạo hiệu ứng fadeIn */
+}
+
+@keyframes fadeIn {
+    0% {
+        display: block;
+        opacity: 1;
+        /* Bắt đầu với độ mờ 0 */
+    }
+    50% {
+        display: block;
+        opacity: 1;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+        /* Kết thúc với độ mờ 1 (hiện lên) */
+    }
+}
+
+
+
+/* Các nút bấm------------------------------ */
+/* Nút bấm đen trắng mua vé, xem chi tiết------------------------------ */
+.btn_trang {
+    @apply font-medium rounded-lg px-10 py-3 me-2 mb-2 border focus:outline-none text-black bg-white/80 border-stone-300 hover:bg-white focus:ring-1 hover:border-black/80 focus:ring-black
+}
+
+.btn_den {
+    @apply font-medium rounded-lg px-10 py-3 me-2 mb-2 border focus:outline-none text-white bg-black/80 border-stone-600 hover:bg-black focus:ring-1 hover:border-white/80 focus:ring-white
+}
+
+
+
+
+.model_img {
+    overflow: hidden;
+}
+
+.model_img img {
+    transform: scale(1);
+    transition: all 0.5s;
+    object-fit: cover;
+}
+.model_box:hover .model_img img {
+    transform: scale(1.3);
+}
+
+
+.model_box {
+    overflow: hidden;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.model_box:hover {
+    transform: scale(1.12);
+}
+
+.cardMovie_none{
+    display: none;
+}
+.model_box:hover .cardMovie_none {
+    display: block;
+}
+.model_box:hover .cardMovie_block {
+    display: none;
+}
