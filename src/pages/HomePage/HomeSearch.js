@@ -9,7 +9,7 @@ export default function HomeSearch() {
                 <label htmlFor="search-dropdown" className="mb-2 text-sm font-medium sr-only text-white"></label>
 
                 {/* Phim */}
-                <button id="dropdown_phim_btn" data-dropdown-toggle="dropdown_phim" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center border rounded-s-lg focus:ring-1 focus:outline-none bg-black hover:bg-stone-800 focus:ring-stone-700 text-white border-stone-700" type="button">
+                {/* <button id="dropdown_phim_btn" data-dropdown-toggle="dropdown_phim" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center border rounded-s-lg focus:ring-1 focus:outline-none bg-black hover:bg-stone-800 focus:ring-stone-700 text-white border-stone-700" type="button">
                     Phim
                     <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 1 4 4 4-4" />
@@ -28,10 +28,10 @@ export default function HomeSearch() {
                             <button type="button" className="inline-flex w-full px-4 py-2 hover:bg-stone-600 hover:text-white">Phim 3</button>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* Rạp */}
-                <button id="dropdown_rap_btn" data-dropdown-toggle="dropdown_rap" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center border focus:ring-1 focus:outline-none bg-black hover:bg-stone-800 focus:ring-stone-700 text-white border-stone-700" type="button">
+                {/* <button id="dropdown_rap_btn" data-dropdown-toggle="dropdown_rap" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center border focus:ring-1 focus:outline-none bg-black hover:bg-stone-800 focus:ring-stone-700 text-white border-stone-700" type="button">
                     Rạp
                     <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 1 4 4 4-4" />
@@ -50,10 +50,10 @@ export default function HomeSearch() {
                             <button type="button" className="inline-flex w-full px-4 py-2 hover:bg-stone-600 hover:text-white">Rạp 3</button>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* Lịch chiếu */}
-                <button id="dropdown_lich_btn" data-dropdown-toggle="dropdown_lich" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center border focus:ring-1 focus:outline-none bg-black hover:bg-stone-800 focus:ring-stone-700 text-white border-stone-700" type="button">
+                {/* <button id="dropdown_lich_btn" data-dropdown-toggle="dropdown_lich" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center border focus:ring-1 focus:outline-none bg-black hover:bg-stone-800 focus:ring-stone-700 text-white border-stone-700" type="button">
                     Lịch chiếu
                     <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 1 4 4 4-4" />
@@ -72,7 +72,7 @@ export default function HomeSearch() {
                             <button type="button" className="inline-flex w-full px-4 py-2 hover:bg-stone-600 hover:text-white">Lịch chiếu 3</button>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
                 <div className="relative w-full">
                     <input type="search" id="search-dropdown" className="block p-2.5 w-full z-20 text-sm rounded-e-lg border-s-2 border focus:ring-blue-500 bg-stone-900 border-s-stone-700 border-stone-600 placeholder-stone-400 text-white focus:border-blue-500" placeholder="Tìm kiếm phim..." required />
