@@ -16,9 +16,10 @@ export default function HomeCarousel() {
                 {/* Item 4 */}
                 <HomeCarouselVideo/>
                 {/* Item 5 */}
-                <div className="hidden duration-700 ease-in-out" data-carousel-item>v
+                {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>v
                     <img src="https://s3img.vcdn.vn/123phim/2021/04/nguoi-nhan-ban-seobok-16177781610725.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-                </div>
+                </div> */}
+                <HomeCarouselVideo/>
             </div>
             {/* Slider indicators */}
             <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-8 left-1/2">
